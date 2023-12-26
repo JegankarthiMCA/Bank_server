@@ -18,7 +18,7 @@ app.use('/api',User)
 // app.use('/api',Admin)
 
 app.get('/',(req,res)=>{
-    res.send("Working")
+    res.send("Hello World")
 })
 
 
